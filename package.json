@@ -1,0 +1,31 @@
+{
+  "name": "swaralipi-core",
+  "version": "0.0.1",
+  "description": "Libraries for Swaralipi (Indian Sheet Music)",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swaralipi-js/swaralipi-core.git"
+  },
+  "keywords": [
+    "swaralipi",
+    "indian",
+    "music",
+    "indic",
+    "sheet"
+  ],
+  "author": "Palash Bhowmick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swaralipi-js/swaralipi-core/issues"
+  },
+  "homepage": "https://github.com/swaralipi-js/swaralipi-core#readme",
+  "devDependencies": {
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
