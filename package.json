@@ -2,7 +2,7 @@
   "name": "swaralipi-core",
   "version": "0.0.1",
   "description": "Libraries for Swaralipi (Indian Sheet Music)",
-  "main": "index.js",
+  "main": "dist/swaralipi-core.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +19,7 @@
     "sheet"
   ],
   "author": "Palash Bhowmick",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/swaralipi-js/swaralipi-core/issues"
   },

@@ -7,6 +7,9 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'swaralipi-core.js',
         libraryTarget: 'var',
-        library: "SwaralipiCore",
+        library: {
+            name: "SwaralipiCore",
+            type: 'umd'
+        }
     },
 };
